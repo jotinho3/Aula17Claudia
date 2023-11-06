@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Agbalumo', sans-serif;
+}
+
+header {
+    width: 100%;
+
+    border-bottom: 1.2px solid grey;
+}
+
+.headerFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding: 1rem 12rem 1rem 12rem;
+
+}
+
+.headerIcon {
+    width: 5rem;
+    height: 5rem;
+}
+
+.hamburguerIcon {
+    width: 3rem;
+    height: 3rem;
+
+}
+
